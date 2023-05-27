@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Encriptador</title>  
+</head>
+
+  <body>
+    <div class="container">
+
+      <header>                 
+          <img class="logo" src="./img/logow.svg" alt="Logo"/>          
+          <h1>
+            encriptador
+            <img class="icono-svg" src="./img/locked-black-padlock-security.svg" alt="Icono SVG">
+          </h1>        
+      </header>
+
+      <div class="descripcion">
+      <h2 class="title">Encriptador de Texto</h2>
+      <br>
+      <p>¿Estás preocupado por la seguridad de tu información? Mi proyecto es un encriptador de texto que te permite proteger tus datos al convertirlos en un código cifrado. Puedes estar seguro de que tu información está protegida en todo momento, Ya sea que estés enviando mensajes confidenciales o almacenando datos sensibles, mi encriptador es la herramienta perfecta para mantener tu privacidad y seguridad.</p>
+      <p>¡No esperes más y pruébalo ahora!</p>
+      </div>
+      
+      <section>
+        <div class="container1">
+            <div class="container1__input">
+              <textarea placeholder="Ingrese el texto aqui" id="textarea" required></textarea>              
+            </div>
+
+            <div class="container1__description">
+              <img src="img/alert.svg" alt="imagen de alerta" class="alerta">             
+              <span>Solo letras minúsculas y sin acentos</span>
+            </div>
+            
+            <div class="container__buttons">
+              <button class="btnEncriptar" id="encriptar">Encriptar</button>
+              <button class="btnDesencriptar" id="desencriptar">Desencriptar</button>
+              <button id="resetButton">Reset</button>
+            </div>
+        </div>
+        
+        <div class="container2">
+              <div class="containerResultado">
+                <label class="mostrarResultado" id="resultado"></label>                      
+              </div>
+              <div>
+                <button class="btnCopy" id="btnCopy">Copiar</button>
+              </div>
+        </div>        
+      </section>
+
+      <footer>
+        <div class="footer">
+                
+          <div class="logo__alura">
+            <a href="https://www.aluracursos.com" target="_blank">        
+            <img src="img/logo+.png" alt="alura">
+            </a>
+            </div>
+
+          <div class="redesSociales__Container">
+            <div class="logo__linkedin">
+              <a href="https://www.linkedin.com/in/navarrete369" target="_blank">        
+              <img src="img/circel-black-Linkedin.svg" alt="linkedin">
+              </a>
+            </div>
+            <div class="logo__github">
+              <a href="https://github.com/Ramiroogh" target="_blank">        
+              <img src="img/circel-black-github.svg" alt="github">
+              </a>
+            </div>
+          </div>  
+        </div>
+
+        <div class="footer__description">
+          Copyright © 2023-<script>document.write(new Date().getFullYear())</script> All rights reserved - Designed By: Ramiro Navarrete. 
+        </div>
+
+        </div>
+      </footer>
+    </div>  
+    <script src="js/code.js"></script>
+  </body>
+</html>
